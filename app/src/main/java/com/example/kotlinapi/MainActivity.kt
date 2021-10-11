@@ -22,8 +22,6 @@ class MainActivity : AppCompatActivity() {
         recyclerview_users.setHasFixedSize(true)
         linearLayoutManager = LinearLayoutManager(this)
         recyclerview_users.layoutManager = linearLayoutManager
-
-
         getMyData()
     }
 
